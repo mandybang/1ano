@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  #photo {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #333;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  #photo:hover {
+    transform: rotateY(180deg);
+  }
+  #back {
+    display: none;
+    transform: rotateY(400deg);
+  }
