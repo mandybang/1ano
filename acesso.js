@@ -5,9 +5,9 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
 
-    if (username === 'elison' && password === 'zeroday') {
+    if (username === 'admin' && password === 'admin123') {
         window.location.href = 'coração.html';
     } else {
-        alert('Senha inválida, tente novamente! Dica: a senha é um apelido seu <3');
+        alert('Escreva o alerta que quiser aqui.');
     }
 });
