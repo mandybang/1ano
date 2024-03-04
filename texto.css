@@ -4,7 +4,7 @@ body {
   background-color: #f0f0f0; 
 }
 #paper {
-  background-image: url('./img/papel_carta.jpg'); /* Caminho para colocar a imagem de fundo */
+  background-image: url('./img/'); /* Caminho para colocar a imagem de fundo */
   background-size: cover;
   padding: 10px;
   width: 40%;
