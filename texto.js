@@ -1,4 +1,7 @@
-var texto = "Este é o texto que será digitado na página em tempo real.";
+var texto = `Aqui está um exemplo
+de um texto com
+várias linhas
+para ser digitado.`;
 // Texto para ser digitado
 
 var paper = document.getElementById('paper');
